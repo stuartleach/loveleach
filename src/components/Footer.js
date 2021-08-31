@@ -15,10 +15,6 @@ export const Footer = (props) => {
 						>
 							{props.links.footerMenu[x].image}
 						</div>
-
-						// <a className='icons' href={links.footerMenu[x].url}>
-						// 	{links.footerMenu[x].image}
-						// </a>
 					))}
 				</Center>
 			</nav>
