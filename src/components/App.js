@@ -189,11 +189,6 @@ const App = () => {
 				text: 'Home',
 				page: 'Home',
 			},
-			merch: {
-				url: `http://merch.loveleach.com/`,
-				text: 'Merch',
-				page: 'Merch',
-			},
 			about: {
 				url: null,
 				text: 'About',
