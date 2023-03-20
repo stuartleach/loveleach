@@ -4,22 +4,7 @@ import { Center } from '@chakra-ui/react'
 export const SpotifyEmbed = (props) => {
 	return (
 		<div>
-			<Center>
-				<iframe
-					title='badge'
-					src='https://open.spotify.com/follow/1/?uri=spotify:artist:4stOnS5u8dF0yGDimfH02w?si=YfOCYDerQf2gyYr2skaTng&amp;dl_branch=1&amp;size=detail&amp;theme=dark'
-					width='240'
-					height='56'
-					scrolling='no'
-					frameborder='0'
-					style={{
-						border: 'none',
-						overflow: 'hidden',
-						marginBottom: '40px',
-					}}
-					allowtransparency='true'
-				></iframe>
-			</Center>
+			
 			<Center>
 				<iframe
 					className='spotPlayer'
